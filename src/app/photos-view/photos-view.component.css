@@ -1,0 +1,12 @@
+.photo {
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid black;
+    width: 180px;
+}
+
+:host {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}

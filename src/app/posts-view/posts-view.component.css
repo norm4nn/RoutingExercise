@@ -1,0 +1,10 @@
+.bold{
+    font-weight: 700;
+}
+
+.post {
+    border: 2px solid black;
+    margin: 12px;
+    padding: 12px;
+}
+

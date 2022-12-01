@@ -1,0 +1,25 @@
+#nav-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    height: 10vh;
+    margin: 2% 0;
+}
+
+.option {
+    background-color: rgb(201, 176, 87);
+    width: 30vw;
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a::after {
+    text-decoration: none;
+}

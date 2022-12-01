@@ -1,0 +1,6 @@
+
+<div class="photo" *ngFor="let photo of photos; let i = index">
+    <a  routerLink="/photos/{{index}}"><img src="{{photo.thumbnailUrl}}" (click)="getIndex(i)"></a><br>
+    <b>Album ID:</b> {{photo.albumId}} <br>
+    <b>ID:</b> {{photo.id}}
+</div>
